@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EX1</title>
+    <style>
+        .grid{
+            display: grid;
+            gap: 40px;
+            grid-template-areas:"header header header"
+                                "menu main sidebar"
+                                "footer footer footer";
+            grid-template-columns:1fr 5fr 1fr;
+            grid-template-rows: 80px 1fr 80px;
+            height: 100vh;
+            overflow: hidden;
+        }
+        .header{
+            background-color: rgb(69, 3, 3);
+            grid-area: header;
+            text-align: center;
+            font-size: 50px;
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.5);
+        }
+        .main{
+            background-color: rgb(76, 94, 129);
+            grid-area: main;
+            font-size: 30px;
+            padding: 20px;
+            box-shadow: 0px 4px 15px rgba(0,0,0,0.5);
+            overflow-y: auto;
+        }
+        .sidebar{
+            background-color: gray;
+            grid-area: sidebar;
+            font-size: 30px;
+            box-shadow: -4px 0px 10px rgba(0,0,0,0.5);
+        }
+        .menuesquerdo{
+            background-color: cadetblue;
+            grid-area: menu;
+            font-size: 30px;
+            padding: 15px;
+            box-shadow: 4px 0px 10px rgba(0,0,0,0.5);
+        }
+        .footer{
+            background-color: rgb(14, 73, 64);
+            grid-area: footer;
+            font-size: 50px;
+            text-align: center;
+        }
+        .menuesquerdo a {
+            display: block;
+            padding: 12px 15px;
+            color:white;
+            text-decoration: none;
+            transition:background-color 2s ease, color 2s ease;
+        }
+
+        .menuesquerdo a:hover {
+            background-color:rgba(145, 117, 117, 0.3);
+            color: rgb(89, 28, 150);
+        }
+        body{
+            overflow: hidden;
+        }
+
+
+        
+    </style>
+
+</head>
+<body>
+    <div class="grid">
+        <div class="header"><a name="top"></a>Header</div>
+        <div class="sidebar">Barra da Direita</div>
+        <div class="main"><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum nemo dolorum iure, ipsa ut eveniet eligendi beatae tempore sapiente molestiae culpa sequi fugiat! Doloribus delectus rem architecto nam officia expedita!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, porro optio sint molestias recusandae illum deserunt quibusdam cumque accusantium id voluptas dolor repellat amet molestiae saepe aspernatur doloribus itaque maxime.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro quisquam ullam at dolor libero recusandae autem. Id consequatur non neque culpa nisi. Minima inventore doloribus optio ab? Assumenda, iure aspernatur.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat voluptatibus officiis enim, distinctio dolores laboriosam, hic excepturi libero repudiandae unde veritatis dicta fugiat. Illo error iste facere expedita, natus totam.</p>
+        </div>
+        <div class="menuesquerdo">
+            <a href="#top">Início</a>
+            <a href="#down">Sobre</a>
+            <a href="#contato">contato</a>
+        </div>
+        <div class="footer">
+            <a name="down"></a>Footer</div>
+    </div>
+    
+</body>
+</html>

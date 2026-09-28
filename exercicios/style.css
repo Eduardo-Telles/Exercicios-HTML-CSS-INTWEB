@@ -1,0 +1,49 @@
+.menu-lateral{
+    clear: both;
+    float: left;
+    margin-right: 350px;
+}
+.conteudo{
+    float: left;
+}
+aside{
+    float: right;
+}
+header{
+    background-color: rgb(5, 5, 141);
+    color: white;
+    height: 100px;
+}
+footer{
+    background-color: rgb(5, 5, 141);
+    color: white;
+    clear: both;
+    height: 70px;
+}
+header p{
+    color: blue;
+}
+#img{
+    float: left;
+}
+#d1{
+    float: left;
+}
+#img2{
+    float: left;
+}
+.card{
+    float: left;
+    width: 400px;
+}
+.botao-topo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.menu-lateral {
+    position: sticky;
+    top: 0;
+}
+
+

@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+#Corinthians{
+    background-color: black;
+    color: white;
+}
+#Palmeiras{
+    background-color: green;
+    color: white;
+}
+#SãoPaulo{
+    background-color: red;
+}
+#Cruzeiro{
+    background-color: blue;
+    color: white;
+}
+header {
+    color: aqua;
+}
+body{
+    background-color: cadetblue;
+}

@@ -1,0 +1,54 @@
+@charset "UTF-8";
+#Corinthians{
+    background-color: white;
+    color: black;
+    border: 5px solid black;
+}
+#Palmeiras{
+ 
+    color: green;
+    border: 5px solid green;
+}
+#SãoPaulo{
+   
+    border: 5px solid red;
+}
+#Cruzeiro{
+    color: blue;
+    border: 5px solid blue;
+    margin-bottom: 10px;
+}
+header {
+    color: aqua;
+}
+body{
+    background-color: cadetblue;
+}
+section,article{
+    background-color: white;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
